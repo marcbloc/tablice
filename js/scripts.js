@@ -4,7 +4,7 @@ var allNames = famaleNames.concat(maleNames);
 var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1 ) {
-	var x = allNames.push(newName);
+	allNames.push(newName);
 } else {
 	alert('Name exist');
 }
